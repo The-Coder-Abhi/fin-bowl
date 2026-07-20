@@ -1,0 +1,145 @@
+.loan-details-view-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 32px 24px 32px;
+    /* overflow-x: auto; */
+}
+.loan-details-view-header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.loan-details-view-container{
+    overflow-x: auto;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 24px;
+}
+.loan-details-view-main{
+    display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+/* --- Badges & Text Colors --- */
+.badge-pill {
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 11px;
+    font-weight: 500;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+
+/* Green Applicant Badge */
+.badge-applicant {
+    background-color: #F0FDF4;
+    color: #16A34A;
+    border-color: #DCFCE7;
+}
+
+/* Gray Co-Applicant Badge */
+.badge-co-applicant {
+    background-color: #F3F4F6;
+    color: #4B5563;
+    border-color: #E5E7EB;
+}
+
+/* Purple Home Loan Badge */
+.badge-loan {
+    background-color: #F5F3FF;
+    color: #6D28D9;
+}
+
+/* Currency Text Colors */
+.text-success { color: #16A34A !important; }
+.text-danger { color: #DC2626 !important; }
+.font-medium { font-weight: 500; color: #111827; }
+
+/* --- Loan Details Grid --- */
+.loan-details-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 24px 16px;
+    padding: 16px 0;
+}
+
+.detail-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.detail-label {
+    font-size: 12px;
+    color: #6B7280;
+    font-weight: 400;
+}
+
+.detail-value {
+    font-size: 14px;
+}
+
+.detail-section-title {
+    grid-column: 1 / -1; /* Spans across all 4 columns */
+    font-size: 13px;
+    font-weight: 600;
+    color: #111827;
+    margin-top: 16px;
+    margin-bottom: -8px;
+}
+
+/* --- Nested Table Adjustments --- */
+/* Removes the outer border from your standard table when inside an accordion */
+.nested-table-wrapper {
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+}
+
+.nested-table-wrapper th {
+    background-color: #FAFAFC; /* Slight purple/gray tint for the nested headers */
+}
+.document-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 10px 0;
+}
+
+.document-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+
+.doc-name { font-size: 13px; font-weight: 500; color: #111827; }
+.doc-size { font-size: 12px; color: #6B7280; }
+
+/* Text Utilities */
+.text-primary { color: #2563EB; } /* For links/IDs */
+.text-muted { color: #6B7280; font-size: 12px; }
+.note-text { font-size: 14px; color: #374151; line-height: 1.5; }
+
+.activity-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background: white;
+    box-shadow: -4px 0 15px rgba(0,0,0,0.1);
+    z-index: 1000;
+    overflow-y: auto;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}

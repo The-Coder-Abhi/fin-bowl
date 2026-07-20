@@ -1,0 +1,35 @@
+/* Container for the side navigation */
+.section-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 240px; /* Adjust this width based on your main layout */
+  padding: 16px;
+  position: sticky;
+  top: 20px; /* Keeps the nav on screen when scrolling down */
+}
+
+/* Base style for all links */
+.nav-link {
+  text-decoration: none;
+  color: #666666; /* Subdued gray for inactive links */
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  display: block;
+}
+
+/* Hover effect for inactive links */
+.nav-link:hover:not(.active) {
+  background-color: #f9f9f9;
+  color: #333333;
+}
+
+/* Style for the currently active link */
+.nav-link.active {
+  background-color: #f8f5ff; /* Light purple background */
+  color: #7b4dff; /* Primary purple text */
+  font-weight: 600;
+}

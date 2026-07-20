@@ -1,0 +1,170 @@
+.activity-log-panel {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #ffffff;
+}
+
+.activity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.activity-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.close-btn:hover {
+    background: #f5f5f5;
+}
+
+.activity-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.activity-item:first-child {
+    padding-top: 0;
+}
+
+.activity-meta {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    background: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #555;
+    flex-shrink: 0;
+}
+
+.activity-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.activity-title {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.activity-user {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.activity-date {
+    margin-left: auto;
+    font-size: 0.75rem;
+    color: #888;
+    white-space: nowrap;
+    margin-top: 2px;
+}
+
+/* Change Details Container */
+.change-details {
+    margin-top: 16px;
+    margin-left: 48px; 
+}
+
+.desc {
+    margin: 0 0 8px 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.change-box {
+    display: flex;
+    gap: 20px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+
+.change-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.change-label {
+    font-size: 0.75rem;
+    color: #888;
+    font-weight: 500;
+}
+
+.change-value {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.status-badge::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.status-verified {
+    background: #f0f7ff;
+    color: #007aff;
+    border: 1px solid #cce4ff;
+}
+.status-verified::before {
+    background: #007aff;
+}
+
+.status-processed {
+    background: #fffdf0;
+    color: #d39e00;
+    border: 1px solid #ffea8a;
+}
+.status-processed::before {
+    background: #f5c518;
+}

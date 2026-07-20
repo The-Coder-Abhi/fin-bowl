@@ -1,13 +1,29 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --primary-color: #6941C6;
+  --secondary-color: #42307D;
+  --tertiary-color: #2C1C5F;
+  --primary-text-color: #171717;
+  --secondary-text-color: #FFFFFF;
+  --secondary-text-color-light: rgba(255, 255, 255, 0.1);
+  --primary-background-color: #FFFFFF;
+  --secondary-background-color: #F7F5FF;
+}
+body{
+  overflow: hidden;
+}
+.App{
+  /* border: 1px solid red; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  background-color: var(--secondary-background-color);
 }

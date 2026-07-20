@@ -1,0 +1,120 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; /* Aligns the bottom of the buttons with the bottom of the title */
+  width: 100%;
+  padding: 24px 32px 20px 32px;
+}
+
+/* --- Typography Stack --- */
+.title-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.breadcrumb-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+
+.crumb-parent {
+  color: #8C8C8C; /* Softer gray */
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.crumb-parent:hover {
+  color: #111827;
+}
+
+.crumb-divider {
+  color: #D1D5DB;
+  font-size: 12px;
+}
+
+.crumb-current {
+  color: var(--primary-color); 
+  font-weight: 600;
+}
+
+.page-title {
+  font-size: 28px; /* Slightly larger, modern sizing */
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  letter-spacing: -0.5px; /* Tighter tracking for headings looks more premium */
+}
+
+/* --- Button Architecture --- */
+.action-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Base Button Reset */
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px; /* Smooth, slightly rounded corners */
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); /* Snappier easing function */
+}
+
+.btn-icon {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.btn-icon.right {
+  margin-left: 4px;
+  opacity: 1;
+}
+
+/* 1. Ghost Button (Hover effect only, no borders) */
+.btn-ghost {
+  color: #4B5563;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: #111827;
+}
+
+/* 2. Outline Button (Crisp border, subtle shadow) */
+.btn-outline {
+  border: 1px solid #E5E7EB;
+  background-color: #FFFFFF;
+  color: #374151;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04); /* Micro-shadow */
+}
+
+.btn-outline:hover {
+  border-color: #D1D5DB;
+  background-color: #F9FAFB;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  transform: translateY(-1px); /* Slight lift effect */
+}
+
+/* 3. Solid Button (The primary call to action) */
+.btn-solid {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  box-shadow: 0 1px 2px rgba(105, 65, 198, 0.2); /* Colored shadow based on your purple */
+}
+
+.btn-solid:hover {
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 6px rgba(105, 65, 198, 0.25);
+  transform: translateY(-1px);
+}

@@ -1,0 +1,62 @@
+/* --- Outer Card --- */
+.accordion-card {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin: 16px 0px; /* Spacing between multiple accordions */
+    overflow: auto; /* Keeps the rounded corners crisp */
+}
+
+/* --- Header Section --- */
+.accordion-header {
+    display: flex;
+    justify-content: space-between; /* Pushes title left, chevron right */
+    align-items: center;
+    padding: 16px 20px;
+    background-color: #FAFAFC; /* Very subtle gray background */
+    cursor: pointer;
+    user-select: none; /* Prevents text from highlighting if clicked quickly */
+    transition: background-color 0.2s ease;
+}
+
+.accordion-header:hover {
+    background-color: #F3F4F6;
+}
+
+/* --- Title & Icon Alignment --- */
+.accordion-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827; /* Dark text */
+}
+
+.accordion-icon {
+    display: flex;
+    align-items: center;
+    color: #6B7280; /* Gray icon */
+    font-size: 16px;
+}
+
+/* --- Chevron Icon --- */
+.accordion-chevron {
+    display: flex;
+    align-items: center;
+    color: #6B7280;
+    font-size: 18px;
+}
+
+/* --- Content Body --- */
+.accordion-body {
+    border-top: 1px solid rgba(0, 0, 0, 0.06); /* Divider line between header and content */
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+/* Adjust nested tables so they sit perfectly flush inside the padding */
+.accordion-body .nested-table-wrapper {
+    margin: -20px; /* Pulls the table out to touch the edges of the accordion body */
+    padding: 0;
+}
