@@ -6,6 +6,7 @@ import RMS from "./pages/RMS/RMS";
 import Invoice from "./pages/Invoice/Invoice";
 import LoanDetailsView from "./pages/LoanDetailsView/LoanDetailsView";
 import { ActivityProvider } from "./context/ActivityContext";
+
 function App() {
   return (
     <ActivityProvider>
@@ -18,6 +19,7 @@ function App() {
             <Route path="/finance" element={<div>Finance Page</div>} />
             <Route path="/sales-crm" element={<div>Sales CRM Page</div>} />
 
+            {/* Nested RMS Routes - Make sure RMS.jsx includes an <Outlet /> */}
             <Route path="/rms" element={<RMS />}>
               <Route index element={<Disbursement />} />
               <Route path="dashboard" element={<Dashboard />} />
@@ -25,21 +27,14 @@ function App() {
               <Route path="disbursement/:id" element={<LoanDetailsView />} />
               <Route path="invoices" element={<Invoice />} />
               <Route path="po" element={<div>PO</div>} />
-              <Route path="report" element={<div>rms report</div>} />
+              <Route path="reports" element={<div>RMS Reports Page</div>} />
             </Route>
 
             <Route path="/compliance" element={<div>Compliance Page</div>} />
             <Route path="/vendors" element={<div>Vendors Page</div>} />
             <Route path="/ai" element={<div>AI Page</div>} />
             <Route path="/reports" element={<div>Reports Page</div>} />
-            <Route path="/rms/dashboard" element={<Dashboard />} />
-            <Route path="/rms/disbursement" element={<Disbursement />} />
-            <Route
-              path="/rms/invoices"
-              element={<div>RMS Invoices Page</div>}
-            />
-            <Route path="/rms/po" element={<div>RMS PO Page</div>} />
-            <Route path="/rms/reports" element={<div>RMS Reports Page</div>} />
+            
           </Routes>
         </div>
       </HashRouter>
