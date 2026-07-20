@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+Fin-Bowl 🥣 | Loan Management Dashboard
+A modern, responsive React web application designed to handle financial operations, including loan disbursements, invoices, and record management (RMS). This project was built as a frontend development assignment to demonstrate routing, state management, and component architecture.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Live Demo
+View the Live Dashboard Here
 
-## Available Scripts
+🛠️ Tech Stack
+Frontend Framework: React.js
 
-In the project directory, you can run:
+Routing: React Router v6 (HashRouter optimized for static hosting)
 
-### `npm start`
+Deployment: GitHub Pages (gh-pages)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tooling: Create React App (CRA)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✨ Key Features
+Comprehensive RMS (Record Management System): A dedicated hub for managing internal dashboard metrics.
 
-### `npm test`
+Disbursement Tracking: View and manage loan disbursements, complete with dynamic routing for individual loan detail views.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Financial Operations: Navigate seamlessly between Invoices, Purchase Orders (POs), and Financial Reports.
 
-### `npm run build`
+Stable Routing Architecture: Utilizes HashRouter to ensure stable URLs and eliminate 404 errors on page refreshes when hosted on GitHub Pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Modular Component Structure: Codebase is broken down into reusable components (e.g., Sidebar, Header, DisbursementTable) for high maintainability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+💻 Local Development Setup
+To run this project locally on your machine, follow these steps:
+1. Clone the repository
+   git clone https://github.com/The-Coder-Abhi/fin-bowl.git
+2. Navigate to the project directory
+   cd fin-bowl
+3. Install dependencies
+   npm install
+4. Start the development server
+   npm start
+The application will automatically open in your default browser at http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📦 Deployment
+This project is configured to build and deploy automatically to GitHub Pages.
 
-### `npm run eject`
+To deploy a new version, run the following command in your terminal:
+npm run deploy
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👨‍💻 Author
+Abhishek Shelar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: @The-Coder-Abhi
