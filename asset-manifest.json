@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4d6dfd0.css",
-    "main.js": "/static/js/main.b951e02c.js",
-    "static/media/User.png": "/static/media/User.08fc726131de55cbee97.png",
-    "static/media/Logomark.svg": "/static/media/Logomark.f00d2dfdbf85cb0bc415c22d15fd2450.svg",
-    "static/media/coins-hand.svg": "/static/media/coins-hand.50d10f0b7e4e9fc6df148f67bb8f609d.svg",
-    "static/media/bank.svg": "/static/media/bank.b05747ea89e8f261bd1a4c4122d1d4da.svg",
-    "static/media/file-05.svg": "/static/media/file-05.115550d9e9999ffc9741550580a31331.svg",
-    "static/media/magic-wand-01.svg": "/static/media/magic-wand-01.a0eb9c5b8d56375a9e9a939b8c966bfa.svg",
-    "static/media/home-line.svg": "/static/media/home-line.123d19d856dd59c49e53ce4004b5eb09.svg",
-    "static/media/shield-tick.svg": "/static/media/shield-tick.0ce48035343cc744f5dcae9fe7c2a2c7.svg",
-    "static/media/building-06.svg": "/static/media/building-06.387c35254ff7743e64a9e07221ea008d.svg",
-    "static/media/bar-chart-square-02.svg": "/static/media/bar-chart-square-02.88624410519097e056e9fd4ffcb6cbc2.svg",
-    "static/media/pie-chart-03.svg": "/static/media/pie-chart-03.2284b28af739ee37e46bf9fd0805615e.svg",
-    "index.html": "/index.html",
-    "static/media/wallet-03.svg": "/static/media/wallet-03.f3366765760b22cc230507bc95faae7c.svg",
-    "static/media/receipt-check.svg": "/static/media/receipt-check.b229f193c80489d94ed958a3f85cc024.svg",
-    "static/media/users-02.svg": "/static/media/users-02.ba8d0c50a44e15274b7bd1e43f2ef533.svg",
-    "static/media/receipt.svg": "/static/media/receipt.78e9aa3b8497a9d0ba2fd0e14d6986c2.svg",
-    "main.e4d6dfd0.css.map": "/static/css/main.e4d6dfd0.css.map",
-    "main.b951e02c.js.map": "/static/js/main.b951e02c.js.map"
+    "main.css": "/fin-bowl/static/css/main.e4d6dfd0.css",
+    "main.js": "/fin-bowl/static/js/main.0304e0e0.js",
+    "static/media/User.png": "/fin-bowl/static/media/User.08fc726131de55cbee97.png",
+    "static/media/Logomark.svg": "/fin-bowl/static/media/Logomark.f00d2dfdbf85cb0bc415c22d15fd2450.svg",
+    "static/media/coins-hand.svg": "/fin-bowl/static/media/coins-hand.50d10f0b7e4e9fc6df148f67bb8f609d.svg",
+    "static/media/bank.svg": "/fin-bowl/static/media/bank.b05747ea89e8f261bd1a4c4122d1d4da.svg",
+    "static/media/file-05.svg": "/fin-bowl/static/media/file-05.115550d9e9999ffc9741550580a31331.svg",
+    "static/media/magic-wand-01.svg": "/fin-bowl/static/media/magic-wand-01.a0eb9c5b8d56375a9e9a939b8c966bfa.svg",
+    "static/media/home-line.svg": "/fin-bowl/static/media/home-line.123d19d856dd59c49e53ce4004b5eb09.svg",
+    "static/media/shield-tick.svg": "/fin-bowl/static/media/shield-tick.0ce48035343cc744f5dcae9fe7c2a2c7.svg",
+    "static/media/building-06.svg": "/fin-bowl/static/media/building-06.387c35254ff7743e64a9e07221ea008d.svg",
+    "static/media/bar-chart-square-02.svg": "/fin-bowl/static/media/bar-chart-square-02.88624410519097e056e9fd4ffcb6cbc2.svg",
+    "index.html": "/fin-bowl/index.html",
+    "static/media/pie-chart-03.svg": "/fin-bowl/static/media/pie-chart-03.2284b28af739ee37e46bf9fd0805615e.svg",
+    "static/media/wallet-03.svg": "/fin-bowl/static/media/wallet-03.f3366765760b22cc230507bc95faae7c.svg",
+    "static/media/receipt-check.svg": "/fin-bowl/static/media/receipt-check.b229f193c80489d94ed958a3f85cc024.svg",
+    "static/media/users-02.svg": "/fin-bowl/static/media/users-02.ba8d0c50a44e15274b7bd1e43f2ef533.svg",
+    "static/media/receipt.svg": "/fin-bowl/static/media/receipt.78e9aa3b8497a9d0ba2fd0e14d6986c2.svg",
+    "main.e4d6dfd0.css.map": "/fin-bowl/static/css/main.e4d6dfd0.css.map",
+    "main.0304e0e0.js.map": "/fin-bowl/static/js/main.0304e0e0.js.map"
   },
   "entrypoints": [
     "static/css/main.e4d6dfd0.css",
-    "static/js/main.b951e02c.js"
+    "static/js/main.0304e0e0.js"
   ]
 }
