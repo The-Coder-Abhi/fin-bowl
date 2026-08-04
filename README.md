@@ -30,13 +30,21 @@ Modular Component Structure: Codebase is broken down into reusable components (e
 💻 Local Development Setup
 To run this project locally on your machine, follow these steps:
 1. Clone the repository
+   ```bash
    git clone https://github.com/The-Coder-Abhi/fin-bowl.git
+   
 2. Navigate to the project directory
+    ```bash 
    cd fin-bowl
+    
 3. Install dependencies
+   ```bash
    npm install
+   
 4. Start the development server
+   ```bash
    npm start
+   
 The application will automatically open in your default browser at http://localhost:3000.
 
 📦 Deployment
