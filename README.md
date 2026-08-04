@@ -1,6 +1,6 @@
 Fin-Bowl 🥣 | Loan Management Dashboard
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Website-blue?style=for-the-badge)](https://the-coder-abhi.github.io/fin-bowl/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Website-blue?style=for-the-badge)](https://the-coder-abhi.github.io/fin-bowl/#/rms/disbursement)
 
 A modern, responsive React web application designed to handle financial operations, including loan disbursements, invoices, and record management (RMS). This project was built as a frontend development assignment to demonstrate routing, state management, and component architecture.
 
