@@ -9,9 +9,11 @@ A modern, responsive React web application designed to handle financial operatio
 
 ## 🎥 Video Demonstration
 
-<video src="https://github.com/The-Coder-Abhi/fin-bowl/raw/main/src/assets/Demo/FinBowl-Demo-Vid.mp4" width="100%" controls="controls" muted="muted" autoplay="autoplay" loop="loop">
+<!-- <video src="https://github.com/The-Coder-Abhi/fin-bowl/raw/main/src/assets/Demo/FinBowl-Demo-Vid.mp4" width="100%" controls="controls" muted="muted" autoplay="autoplay" loop="loop">
   Your browser does not support the video tag.
-</video>
+</video> -->
+<img width="100%" height="auto" alt="FinBowl-Demo-Vid" src="https://github.com/user-attachments/assets/ebc623e5-7dc8-4030-a480-191b86d87096" />
+
 
 🚀 Live Demo
 View the Live Dashboard Here
