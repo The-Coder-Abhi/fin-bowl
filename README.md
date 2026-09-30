@@ -9,12 +9,13 @@ A modern, responsive React web application designed to handle financial operatio
 
 ## 🎥 Video Demonstration
 
-<video src="src/assets/Demo/FinBowl Demo Vid.mp4" width="100%" controls="controls" muted="muted" autoplay="autoplay" loop="loop">
+<video src="src/assets/Demo/FinBowl-Demo-Vid.mp4" width="100%" controls="controls" muted="muted" autoplay="autoplay" loop="loop">
   Your browser does not support the video tag.
 </video>
 
 🚀 Live Demo
 View the Live Dashboard Here
+[View the Live Dashboard Here](https://the-coder-abhi.github.io/fin-bowl/#/rms/disbursement)
 
 🛠️ Tech Stack
 Frontend Framework: React.js
